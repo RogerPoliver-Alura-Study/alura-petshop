@@ -4,6 +4,7 @@ const exibeCliente = (cpf, nome) => {
   const conteudoLinha = `
       <td>${cpf}</td>
       <td>${nome}</td>
+      <button type="button" class="btn btn-danger">Deletar Cliente<button>
   `;
 
   linha.innerHTML = conteudoLinha;
